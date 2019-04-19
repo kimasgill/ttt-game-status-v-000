@@ -16,11 +16,11 @@ WIN_COMBINATIONS = [
   [2,4,6]   
   ]
   
-  def won?(board)
-    WIN_COMBINATIONS.select do |win_combo|
-   board[win_combo[0]] == board[win_combo[1] == board[win_combo[2]] 
-   board[win_combo[3]] == board[win_combo[4]]
-   board[win_combo[2]] == board[win_combo[3]]
-   board[win_combo[3]] == board[win_combo[4]]
-  end
+  # def won?(board)
+  #   WIN_COMBINATIONS.select do |win_combo|
+  # board[win_combo[0]] == board[win_combo[1] == board[win_combo[2]] 
+  # board[win_combo[3]] == board[win_combo[4]]
+  # board[win_combo[2]] == board[win_combo[3]]
+  # board[win_combo[3]] == board[win_combo[4]]
+  # end
  end
